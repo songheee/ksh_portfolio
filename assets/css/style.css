@@ -1123,7 +1123,17 @@ p {
     .work-sub-tit-2{
       color: #fff;
     }
-
+.new-work{
+    background-color: #f3f3f3;
+    width: 100%;
+    height: 100%;
+    .work-image{
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translatey(-50%);
+    }
+}
 /*===========================
        6.PRICING css
 ===========================*/
